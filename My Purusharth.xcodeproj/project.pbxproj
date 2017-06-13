@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3634EF21EEFC9F400DA203D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634EF11EEFC9F400DA203D /* AppDelegate.swift */; };
+		D3634EF41EEFC9F400DA203D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634EF31EEFC9F400DA203D /* ViewController.swift */; };
+		D3634EF71EEFC9F400DA203D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3634EF51EEFC9F400DA203D /* Main.storyboard */; };
+		D3634EF91EEFC9F400DA203D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3634EF81EEFC9F400DA203D /* Assets.xcassets */; };
+		D3634EFC1EEFC9F400DA203D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3634EFA1EEFC9F400DA203D /* LaunchScreen.storyboard */; };
+		D3634F071EEFC9F400DA203D /* My_PurusharthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634F061EEFC9F400DA203D /* My_PurusharthTests.swift */; };
+		D3634F121EEFC9F400DA203D /* My_PurusharthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634F111EEFC9F400DA203D /* My_PurusharthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3634F031EEFC9F400DA203D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3634EE61EEFC9F400DA203D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3634EED1EEFC9F400DA203D;
+			remoteInfo = "My Purusharth";
+		};
+		D3634F0E1EEFC9F400DA203D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3634EE61EEFC9F400DA203D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3634EED1EEFC9F400DA203D;
+			remoteInfo = "My Purusharth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3634EEE1EEFC9F400DA203D /* My Purusharth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Purusharth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3634EF11EEFC9F400DA203D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3634EF31EEFC9F400DA203D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3634EF61EEFC9F400DA203D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3634EF81EEFC9F400DA203D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3634EFB1EEFC9F400DA203D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3634EFD1EEFC9F400DA203D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3634F021EEFC9F400DA203D /* My PurusharthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My PurusharthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3634F061EEFC9F400DA203D /* My_PurusharthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_PurusharthTests.swift; sourceTree = "<group>"; };
+		D3634F081EEFC9F400DA203D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3634F0D1EEFC9F400DA203D /* My PurusharthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My PurusharthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3634F111EEFC9F400DA203D /* My_PurusharthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_PurusharthUITests.swift; sourceTree = "<group>"; };
+		D3634F131EEFC9F400DA203D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3634EEB1EEFC9F400DA203D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3634EFF1EEFC9F400DA203D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3634F0A1EEFC9F400DA203D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3634EE51EEFC9F400DA203D = {
+			isa = PBXGroup;
+			children = (
+				D3634EF01EEFC9F400DA203D /* My Purusharth */,
+				D3634F051EEFC9F400DA203D /* My PurusharthTests */,
+				D3634F101EEFC9F400DA203D /* My PurusharthUITests */,
+				D3634EEF1EEFC9F400DA203D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3634EEF1EEFC9F400DA203D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3634EEE1EEFC9F400DA203D /* My Purusharth.app */,
+				D3634F021EEFC9F400DA203D /* My PurusharthTests.xctest */,
+				D3634F0D1EEFC9F400DA203D /* My PurusharthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3634EF01EEFC9F400DA203D /* My Purusharth */ = {
+			isa = PBXGroup;
+			children = (
+				D3634EF11EEFC9F400DA203D /* AppDelegate.swift */,
+				D3634EF31EEFC9F400DA203D /* ViewController.swift */,
+				D3634EF51EEFC9F400DA203D /* Main.storyboard */,
+				D3634EF81EEFC9F400DA203D /* Assets.xcassets */,
+				D3634EFA1EEFC9F400DA203D /* LaunchScreen.storyboard */,
+				D3634EFD1EEFC9F400DA203D /* Info.plist */,
+			);
+			path = "My Purusharth";
+			sourceTree = "<group>";
+		};
+		D3634F051EEFC9F400DA203D /* My PurusharthTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3634F061EEFC9F400DA203D /* My_PurusharthTests.swift */,
+				D3634F081EEFC9F400DA203D /* Info.plist */,
+			);
+			path = "My PurusharthTests";
+			sourceTree = "<group>";
+		};
+		D3634F101EEFC9F400DA203D /* My PurusharthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3634F111EEFC9F400DA203D /* My_PurusharthUITests.swift */,
+				D3634F131EEFC9F400DA203D /* Info.plist */,
+			);
+			path = "My PurusharthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3634EED1EEFC9F400DA203D /* My Purusharth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3634F161EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My Purusharth" */;
+			buildPhases = (
+				D3634EEA1EEFC9F400DA203D /* Sources */,
+				D3634EEB1EEFC9F400DA203D /* Frameworks */,
+				D3634EEC1EEFC9F400DA203D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Purusharth";
+			productName = "My Purusharth";
+			productReference = D3634EEE1EEFC9F400DA203D /* My Purusharth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3634F011EEFC9F400DA203D /* My PurusharthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3634F191EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My PurusharthTests" */;
+			buildPhases = (
+				D3634EFE1EEFC9F400DA203D /* Sources */,
+				D3634EFF1EEFC9F400DA203D /* Frameworks */,
+				D3634F001EEFC9F400DA203D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3634F041EEFC9F400DA203D /* PBXTargetDependency */,
+			);
+			name = "My PurusharthTests";
+			productName = "My PurusharthTests";
+			productReference = D3634F021EEFC9F400DA203D /* My PurusharthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3634F0C1EEFC9F400DA203D /* My PurusharthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3634F1C1EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My PurusharthUITests" */;
+			buildPhases = (
+				D3634F091EEFC9F400DA203D /* Sources */,
+				D3634F0A1EEFC9F400DA203D /* Frameworks */,
+				D3634F0B1EEFC9F400DA203D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3634F0F1EEFC9F400DA203D /* PBXTargetDependency */,
+			);
+			name = "My PurusharthUITests";
+			productName = "My PurusharthUITests";
+			productReference = D3634F0D1EEFC9F400DA203D /* My PurusharthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3634EE61EEFC9F400DA203D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Reverie Works";
+				TargetAttributes = {
+					D3634EED1EEFC9F400DA203D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GXU9WE52K6;
+						ProvisioningStyle = Automatic;
+					};
+					D3634F011EEFC9F400DA203D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GXU9WE52K6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3634EED1EEFC9F400DA203D;
+					};
+					D3634F0C1EEFC9F400DA203D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GXU9WE52K6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3634EED1EEFC9F400DA203D;
+					};
+				};
+			};
+			buildConfigurationList = D3634EE91EEFC9F400DA203D /* Build configuration list for PBXProject "My Purusharth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3634EE51EEFC9F400DA203D;
+			productRefGroup = D3634EEF1EEFC9F400DA203D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3634EED1EEFC9F400DA203D /* My Purusharth */,
+				D3634F011EEFC9F400DA203D /* My PurusharthTests */,
+				D3634F0C1EEFC9F400DA203D /* My PurusharthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3634EEC1EEFC9F400DA203D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3634EFC1EEFC9F400DA203D /* LaunchScreen.storyboard in Resources */,
+				D3634EF91EEFC9F400DA203D /* Assets.xcassets in Resources */,
+				D3634EF71EEFC9F400DA203D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3634F001EEFC9F400DA203D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3634F0B1EEFC9F400DA203D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3634EEA1EEFC9F400DA203D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3634EF41EEFC9F400DA203D /* ViewController.swift in Sources */,
+				D3634EF21EEFC9F400DA203D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3634EFE1EEFC9F400DA203D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3634F071EEFC9F400DA203D /* My_PurusharthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3634F091EEFC9F400DA203D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3634F121EEFC9F400DA203D /* My_PurusharthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3634F041EEFC9F400DA203D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3634EED1EEFC9F400DA203D /* My Purusharth */;
+			targetProxy = D3634F031EEFC9F400DA203D /* PBXContainerItemProxy */;
+		};
+		D3634F0F1EEFC9F400DA203D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3634EED1EEFC9F400DA203D /* My Purusharth */;
+			targetProxy = D3634F0E1EEFC9F400DA203D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3634EF51EEFC9F400DA203D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3634EF61EEFC9F400DA203D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3634EFA1EEFC9F400DA203D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3634EFB1EEFC9F400DA203D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3634F141EEFC9F400DA203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3634F151EEFC9F400DA203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3634F171EEFC9F400DA203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GXU9WE52K6;
+				INFOPLIST_FILE = "My Purusharth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reverieworks.My-Purusharth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D3634F181EEFC9F400DA203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GXU9WE52K6;
+				INFOPLIST_FILE = "My Purusharth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reverieworks.My-Purusharth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D3634F1A1EEFC9F400DA203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GXU9WE52K6;
+				INFOPLIST_FILE = "My PurusharthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reverieworks.My-PurusharthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Purusharth.app/My Purusharth";
+			};
+			name = Debug;
+		};
+		D3634F1B1EEFC9F400DA203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GXU9WE52K6;
+				INFOPLIST_FILE = "My PurusharthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reverieworks.My-PurusharthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Purusharth.app/My Purusharth";
+			};
+			name = Release;
+		};
+		D3634F1D1EEFC9F400DA203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GXU9WE52K6;
+				INFOPLIST_FILE = "My PurusharthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reverieworks.My-PurusharthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Purusharth";
+			};
+			name = Debug;
+		};
+		D3634F1E1EEFC9F400DA203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GXU9WE52K6;
+				INFOPLIST_FILE = "My PurusharthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reverieworks.My-PurusharthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "My Purusharth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3634EE91EEFC9F400DA203D /* Build configuration list for PBXProject "My Purusharth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3634F141EEFC9F400DA203D /* Debug */,
+				D3634F151EEFC9F400DA203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3634F161EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My Purusharth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3634F171EEFC9F400DA203D /* Debug */,
+				D3634F181EEFC9F400DA203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3634F191EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My PurusharthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3634F1A1EEFC9F400DA203D /* Debug */,
+				D3634F1B1EEFC9F400DA203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3634F1C1EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My PurusharthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3634F1D1EEFC9F400DA203D /* Debug */,
+				D3634F1E1EEFC9F400DA203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3634EE61EEFC9F400DA203D /* Project object */;
+}
