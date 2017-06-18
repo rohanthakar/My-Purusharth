@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BABF31B1E16343D1EE1819B /* Pods_My_PurusharthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1625FDA5120A4E261DAA3EF4 /* Pods_My_PurusharthTests.framework */; };
+		A66166E7F405AD10A251C34D /* Pods_My_PurusharthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1536069F41ADC0417A5BB2 /* Pods_My_PurusharthUITests.framework */; };
+		ADB001F49C97B23CC5FE6310 /* Pods_My_Purusharth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745299A62D15F3399245DE90 /* Pods_My_Purusharth.framework */; };
 		D3634EF21EEFC9F400DA203D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634EF11EEFC9F400DA203D /* AppDelegate.swift */; };
-		D3634EF41EEFC9F400DA203D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634EF31EEFC9F400DA203D /* ViewController.swift */; };
+		D3634EF41EEFC9F400DA203D /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634EF31EEFC9F400DA203D /* MenuVC.swift */; };
 		D3634EF71EEFC9F400DA203D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3634EF51EEFC9F400DA203D /* Main.storyboard */; };
 		D3634EF91EEFC9F400DA203D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3634EF81EEFC9F400DA203D /* Assets.xcassets */; };
 		D3634EFC1EEFC9F400DA203D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3634EFA1EEFC9F400DA203D /* LaunchScreen.storyboard */; };
 		D3634F071EEFC9F400DA203D /* My_PurusharthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634F061EEFC9F400DA203D /* My_PurusharthTests.swift */; };
 		D3634F121EEFC9F400DA203D /* My_PurusharthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634F111EEFC9F400DA203D /* My_PurusharthUITests.swift */; };
+		D3634F241EEFE66900DA203D /* Gabriola.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3634F231EEFE66900DA203D /* Gabriola.ttf */; };
+		D3634F261EEFE84700DA203D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634F251EEFE84700DA203D /* HeaderView.swift */; };
+		D3634F291EEFE90C00DA203D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634F281EEFE90C00DA203D /* Constants.swift */; };
+		D3634F2B1EEFED4700DA203D /* RoundButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3634F2A1EEFED4700DA203D /* RoundButtonView.swift */; };
+		D3C6938A1EF14CBF005ADE83 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C693891EF14CBF005ADE83 /* ButtonView.swift */; };
+		D3FDF27A1EF2A315005D3656 /* DailyMurli.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDF2791EF2A315005D3656 /* DailyMurli.swift */; };
+		D3FDF27C1EF2A41C005D3656 /* MurliSectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDF27B1EF2A41C005D3656 /* MurliSectionVC.swift */; };
+		D3FDF2801EF2B11F005D3656 /* MurliCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDF27F1EF2B11F005D3656 /* MurliCell.swift */; };
+		D3FDF2821EF2B425005D3656 /* PmtvVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FDF2811EF2B425005D3656 /* PmtvVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1625FDA5120A4E261DAA3EF4 /* Pods_My_PurusharthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_PurusharthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D38671C25A5286D741ED5D /* Pods-My PurusharthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My PurusharthUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My PurusharthUITests/Pods-My PurusharthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		745299A62D15F3399245DE90 /* Pods_My_Purusharth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Purusharth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1536069F41ADC0417A5BB2 /* Pods_My_PurusharthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_PurusharthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E15BE3AB82DED5EFC0C332 /* Pods-My PurusharthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My PurusharthTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My PurusharthTests/Pods-My PurusharthTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AE96250A892AC83C1F60E07 /* Pods-My PurusharthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My PurusharthTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My PurusharthTests/Pods-My PurusharthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E80E4054F6A7DA80BABC4E6 /* Pods-My Purusharth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Purusharth.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Purusharth/Pods-My Purusharth.release.xcconfig"; sourceTree = "<group>"; };
+		AE3F2DFE40C82E5D4324015F /* Pods-My Purusharth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Purusharth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Purusharth/Pods-My Purusharth.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A28753711AABD630C9FFC0 /* Pods-My PurusharthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My PurusharthUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My PurusharthUITests/Pods-My PurusharthUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3634EEE1EEFC9F400DA203D /* My Purusharth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Purusharth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3634EF11EEFC9F400DA203D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3634EF31EEFC9F400DA203D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3634EF31EEFC9F400DA203D /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		D3634EF61EEFC9F400DA203D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3634EF81EEFC9F400DA203D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3634EFB1EEFC9F400DA203D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,15 @@
 		D3634F0D1EEFC9F400DA203D /* My PurusharthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My PurusharthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3634F111EEFC9F400DA203D /* My_PurusharthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_PurusharthUITests.swift; sourceTree = "<group>"; };
 		D3634F131EEFC9F400DA203D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3634F231EEFE66900DA203D /* Gabriola.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gabriola.ttf; sourceTree = "<group>"; };
+		D3634F251EEFE84700DA203D /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D3634F281EEFE90C00DA203D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D3634F2A1EEFED4700DA203D /* RoundButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButtonView.swift; sourceTree = "<group>"; };
+		D3C693891EF14CBF005ADE83 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		D3FDF2791EF2A315005D3656 /* DailyMurli.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyMurli.swift; sourceTree = "<group>"; };
+		D3FDF27B1EF2A41C005D3656 /* MurliSectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MurliSectionVC.swift; sourceTree = "<group>"; };
+		D3FDF27F1EF2B11F005D3656 /* MurliCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MurliCell.swift; sourceTree = "<group>"; };
+		D3FDF2811EF2B425005D3656 /* PmtvVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PmtvVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB001F49C97B23CC5FE6310 /* Pods_My_Purusharth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BABF31B1E16343D1EE1819B /* Pods_My_PurusharthTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +100,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66166E7F405AD10A251C34D /* Pods_My_PurusharthUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B16B94F2212621A29D3A7FA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE3F2DFE40C82E5D4324015F /* Pods-My Purusharth.debug.xcconfig */,
+				8E80E4054F6A7DA80BABC4E6 /* Pods-My Purusharth.release.xcconfig */,
+				8AE96250A892AC83C1F60E07 /* Pods-My PurusharthTests.debug.xcconfig */,
+				83E15BE3AB82DED5EFC0C332 /* Pods-My PurusharthTests.release.xcconfig */,
+				B5A28753711AABD630C9FFC0 /* Pods-My PurusharthUITests.debug.xcconfig */,
+				55D38671C25A5286D741ED5D /* Pods-My PurusharthUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D3634EE51EEFC9F400DA203D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				D3634F051EEFC9F400DA203D /* My PurusharthTests */,
 				D3634F101EEFC9F400DA203D /* My PurusharthUITests */,
 				D3634EEF1EEFC9F400DA203D /* Products */,
+				B16B94F2212621A29D3A7FA0 /* Pods */,
+				F201892A5AE93E1DA1CC16B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +145,11 @@
 		D3634EF01EEFC9F400DA203D /* My Purusharth */ = {
 			isa = PBXGroup;
 			children = (
-				D3634EF11EEFC9F400DA203D /* AppDelegate.swift */,
-				D3634EF31EEFC9F400DA203D /* ViewController.swift */,
-				D3634EF51EEFC9F400DA203D /* Main.storyboard */,
+				D3634F271EEFE8F800DA203D /* Util */,
+				D3634F1F1EEFCA1000DA203D /* Model */,
+				D3634F211EEFE46F00DA203D /* Controller */,
+				D3634F201EEFE46A00DA203D /* View */,
+				D3634F221EEFE64500DA203D /* Resources */,
 				D3634EF81EEFC9F400DA203D /* Assets.xcassets */,
 				D3634EFA1EEFC9F400DA203D /* LaunchScreen.storyboard */,
 				D3634EFD1EEFC9F400DA203D /* Info.plist */,
@@ -125,6 +175,63 @@
 			path = "My PurusharthUITests";
 			sourceTree = "<group>";
 		};
+		D3634F1F1EEFCA1000DA203D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3FDF2791EF2A315005D3656 /* DailyMurli.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D3634F201EEFE46A00DA203D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3634EF51EEFC9F400DA203D /* Main.storyboard */,
+				D3634F251EEFE84700DA203D /* HeaderView.swift */,
+				D3634F2A1EEFED4700DA203D /* RoundButtonView.swift */,
+				D3C693891EF14CBF005ADE83 /* ButtonView.swift */,
+				D3FDF27F1EF2B11F005D3656 /* MurliCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D3634F211EEFE46F00DA203D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3634EF31EEFC9F400DA203D /* MenuVC.swift */,
+				D3634EF11EEFC9F400DA203D /* AppDelegate.swift */,
+				D3FDF27B1EF2A41C005D3656 /* MurliSectionVC.swift */,
+				D3FDF2811EF2B425005D3656 /* PmtvVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D3634F221EEFE64500DA203D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3634F231EEFE66900DA203D /* Gabriola.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D3634F271EEFE8F800DA203D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D3634F281EEFE90C00DA203D /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		F201892A5AE93E1DA1CC16B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				745299A62D15F3399245DE90 /* Pods_My_Purusharth.framework */,
+				1625FDA5120A4E261DAA3EF4 /* Pods_My_PurusharthTests.framework */,
+				7E1536069F41ADC0417A5BB2 /* Pods_My_PurusharthUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3634F161EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My Purusharth" */;
 			buildPhases = (
+				58248301E07B05F3EC405636 /* [CP] Check Pods Manifest.lock */,
 				D3634EEA1EEFC9F400DA203D /* Sources */,
 				D3634EEB1EEFC9F400DA203D /* Frameworks */,
 				D3634EEC1EEFC9F400DA203D /* Resources */,
+				C36A64ED7FCEC2E8C8253C6D /* [CP] Embed Pods Frameworks */,
+				FED3EDE476FB4AE760000F92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3634F191EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My PurusharthTests" */;
 			buildPhases = (
+				1C9EEC77C3228194B4BB199F /* [CP] Check Pods Manifest.lock */,
 				D3634EFE1EEFC9F400DA203D /* Sources */,
 				D3634EFF1EEFC9F400DA203D /* Frameworks */,
 				D3634F001EEFC9F400DA203D /* Resources */,
+				5610E1E70C94996CDA14F3F3 /* [CP] Embed Pods Frameworks */,
+				EC6F6EC644F99E325B1CFEBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3634F1C1EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My PurusharthUITests" */;
 			buildPhases = (
+				A8F3FABC0F19C14D523908A9 /* [CP] Check Pods Manifest.lock */,
 				D3634F091EEFC9F400DA203D /* Sources */,
 				D3634F0A1EEFC9F400DA203D /* Frameworks */,
 				D3634F0B1EEFC9F400DA203D /* Resources */,
+				2A2FEECEDC809B7A56A07DD2 /* [CP] Embed Pods Frameworks */,
+				5E0D492ABDD8C3A00AAE5208 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3634EFC1EEFC9F400DA203D /* LaunchScreen.storyboard in Resources */,
+				D3634F241EEFE66900DA203D /* Gabriola.ttf in Resources */,
 				D3634EF91EEFC9F400DA203D /* Assets.xcassets in Resources */,
 				D3634EF71EEFC9F400DA203D /* Main.storyboard in Resources */,
 			);
@@ -257,13 +374,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C9EEC77C3228194B4BB199F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A2FEECEDC809B7A56A07DD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My PurusharthUITests/Pods-My PurusharthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5610E1E70C94996CDA14F3F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My PurusharthTests/Pods-My PurusharthTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58248301E07B05F3EC405636 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E0D492ABDD8C3A00AAE5208 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My PurusharthUITests/Pods-My PurusharthUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F3FABC0F19C14D523908A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C36A64ED7FCEC2E8C8253C6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Purusharth/Pods-My Purusharth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6F6EC644F99E325B1CFEBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My PurusharthTests/Pods-My PurusharthTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED3EDE476FB4AE760000F92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Purusharth/Pods-My Purusharth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3634EEA1EEFC9F400DA203D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3634EF41EEFC9F400DA203D /* ViewController.swift in Sources */,
+				D3FDF27C1EF2A41C005D3656 /* MurliSectionVC.swift in Sources */,
+				D3634EF41EEFC9F400DA203D /* MenuVC.swift in Sources */,
+				D3634F261EEFE84700DA203D /* HeaderView.swift in Sources */,
+				D3C6938A1EF14CBF005ADE83 /* ButtonView.swift in Sources */,
+				D3FDF2801EF2B11F005D3656 /* MurliCell.swift in Sources */,
+				D3634F2B1EEFED4700DA203D /* RoundButtonView.swift in Sources */,
 				D3634EF21EEFC9F400DA203D /* AppDelegate.swift in Sources */,
+				D3634F291EEFE90C00DA203D /* Constants.swift in Sources */,
+				D3FDF27A1EF2A315005D3656 /* DailyMurli.swift in Sources */,
+				D3FDF2821EF2B425005D3656 /* PmtvVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +678,7 @@
 		};
 		D3634F171EEFC9F400DA203D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3F2DFE40C82E5D4324015F /* Pods-My Purusharth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GXU9WE52K6;
@@ -428,6 +692,7 @@
 		};
 		D3634F181EEFC9F400DA203D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E80E4054F6A7DA80BABC4E6 /* Pods-My Purusharth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GXU9WE52K6;
@@ -441,6 +706,7 @@
 		};
 		D3634F1A1EEFC9F400DA203D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE96250A892AC83C1F60E07 /* Pods-My PurusharthTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +722,7 @@
 		};
 		D3634F1B1EEFC9F400DA203D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E15BE3AB82DED5EFC0C332 /* Pods-My PurusharthTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +738,7 @@
 		};
 		D3634F1D1EEFC9F400DA203D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A28753711AABD630C9FFC0 /* Pods-My PurusharthUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GXU9WE52K6;
@@ -485,6 +753,7 @@
 		};
 		D3634F1E1EEFC9F400DA203D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D38671C25A5286D741ED5D /* Pods-My PurusharthUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GXU9WE52K6;
@@ -516,6 +785,7 @@
 				D3634F181EEFC9F400DA203D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3634F191EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My PurusharthTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +794,7 @@
 				D3634F1B1EEFC9F400DA203D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3634F1C1EEFC9F400DA203D /* Build configuration list for PBXNativeTarget "My PurusharthUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +803,7 @@
 				D3634F1E1EEFC9F400DA203D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

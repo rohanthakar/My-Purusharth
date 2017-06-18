@@ -1,26 +1,312 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gabriola.ttf">
+            <string>Gabriola</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--MenuVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MenuVC" customModule="My_Purusharth" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XnL-dq-FHZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SdQ-Bz-NFb" customClass="HeaderView" customModule="My_Purusharth" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Purusharth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0WF-gc-09r">
+                                                <rect key="frame" x="59.5" y="24" width="201.5" height="43"/>
+                                                <fontDescription key="fontDescription" name="Gabriola" family="Gabriola" pointSize="43"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings (3)" translatesAutoresizingMaskIntoConstraints="NO" id="hJ8-RV-54e">
+                                                <rect key="frame" x="279" y="27" width="33" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="33" id="5sO-Lx-VfR"/>
+                                                    <constraint firstAttribute="height" constant="33" id="Hk6-fI-c3m"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="hJ8-RV-54e" secondAttribute="trailing" constant="8" id="BrQ-Fc-AzG"/>
+                                            <constraint firstAttribute="bottom" secondItem="0WF-gc-09r" secondAttribute="bottom" constant="3.5" id="T0U-qG-Sc9"/>
+                                            <constraint firstItem="0WF-gc-09r" firstAttribute="centerX" secondItem="SdQ-Bz-NFb" secondAttribute="centerX" id="Tpu-en-CfE"/>
+                                            <constraint firstAttribute="height" constant="70" id="ess-eF-jL6"/>
+                                            <constraint firstAttribute="bottom" secondItem="hJ8-RV-54e" secondAttribute="bottom" constant="10" id="lj1-3Q-aSD"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="31f-0g-noR">
+                                        <rect key="frame" x="20" y="90" width="280" height="458"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lef-fh-KEq" customClass="RoundButtonView" customModule="My_Purusharth" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="75.5"/>
+                                                <color key="backgroundColor" red="0.31764705879999999" green="0.64313725489999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                                <state key="normal" title="Murli">
+                                                    <color key="titleColor" red="0.96063630739999994" green="0.96063630739999994" blue="0.96063630739999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="268-j9-Bvl" kind="show" id="Z7E-Jg-XWC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qn2-nb-59J" customClass="RoundButtonView" customModule="My_Purusharth" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="95.5" width="280" height="75.5"/>
+                                                <color key="backgroundColor" red="0.31764705879999999" green="0.64313725489999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                                <state key="normal" title="PMTV LIVE">
+                                                    <color key="titleColor" red="0.96063630739999994" green="0.96063630739999994" blue="0.96063630739999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="1Wv-pL-QnJ" kind="show" id="fnJ-FY-5I1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZz-W9-ek8" customClass="RoundButtonView" customModule="My_Purusharth" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="191" width="280" height="76"/>
+                                                <color key="backgroundColor" red="0.31764705879999999" green="0.64313725489999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                                <state key="normal" title="7 Days Course">
+                                                    <color key="titleColor" red="0.96063630739999994" green="0.96063630739999994" blue="0.96063630739999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9y-JA-Nub" customClass="RoundButtonView" customModule="My_Purusharth" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="287" width="280" height="75.5"/>
+                                                <color key="backgroundColor" red="0.31764705879999999" green="0.64313725489999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                                <state key="normal" title="My Chart">
+                                                    <color key="titleColor" red="0.96063630739999994" green="0.96063630739999994" blue="0.96063630739999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHv-VZ-ekg" customClass="RoundButtonView" customModule="My_Purusharth" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="382.5" width="280" height="75.5"/>
+                                                <color key="backgroundColor" red="0.31764705879999999" green="0.64313725489999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
+                                                <state key="normal" title="Center Finder">
+                                                    <color key="titleColor" red="0.96063630739999994" green="0.96063630739999994" blue="0.96063630739999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96063630744285389" green="0.96063630744285389" blue="0.96063630744285389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="SdQ-Bz-NFb" secondAttribute="trailing" id="CHc-j6-VyI"/>
+                                    <constraint firstItem="SdQ-Bz-NFb" firstAttribute="leading" secondItem="XnL-dq-FHZ" secondAttribute="leading" id="JP2-M6-ylQ"/>
+                                    <constraint firstItem="31f-0g-noR" firstAttribute="leading" secondItem="XnL-dq-FHZ" secondAttribute="leading" constant="20" id="QNs-uZ-Tl3"/>
+                                    <constraint firstAttribute="trailing" secondItem="31f-0g-noR" secondAttribute="trailing" constant="20" id="Uzx-bz-vJ9"/>
+                                    <constraint firstItem="SdQ-Bz-NFb" firstAttribute="top" secondItem="XnL-dq-FHZ" secondAttribute="top" id="Wbk-E1-zcd"/>
+                                    <constraint firstAttribute="bottom" secondItem="31f-0g-noR" secondAttribute="bottom" constant="20" id="ha8-oi-KXT"/>
+                                    <constraint firstItem="31f-0g-noR" firstAttribute="top" secondItem="SdQ-Bz-NFb" secondAttribute="bottom" constant="20" id="kpm-Nc-lfg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XnL-dq-FHZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DeX-TL-Chf"/>
+                            <constraint firstItem="XnL-dq-FHZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Kt0-RN-dyn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XnL-dq-FHZ" secondAttribute="bottom" id="VEJ-zA-fNf"/>
+                            <constraint firstAttribute="trailing" secondItem="XnL-dq-FHZ" secondAttribute="trailing" id="kSx-a5-pmk"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="108.75" y="105.63380281690141"/>
+        </scene>
+        <!--PmtvVC-->
+        <scene sceneID="mMl-Wd-IYb">
+            <objects>
+                <viewController id="1Wv-pL-QnJ" customClass="PmtvVC" customModule="My_Purusharth" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Cp-Bo-dtk"/>
+                        <viewControllerLayoutGuide type="bottom" id="YyL-3E-Day"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nzb-9s-v1E">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dQu-Io-duo" customClass="HeaderView" customModule="My_Purusharth" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PMTV Live" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DvP-oV-T28">
+                                        <rect key="frame" x="89.5" y="24" width="141.5" height="43"/>
+                                        <fontDescription key="fontDescription" name="Gabriola" family="Gabriola" pointSize="43"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLf-br-XE4">
+                                        <rect key="frame" x="8" y="29" width="33" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="4cE-At-t8d"/>
+                                            <constraint firstAttribute="width" constant="33" id="SUq-vR-596"/>
+                                        </constraints>
+                                        <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backBtnPressed:" destination="1Wv-pL-QnJ" eventType="touchUpInside" id="sY0-8J-Nwr"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="4n5-tP-ibZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="DvP-oV-T28" secondAttribute="bottom" constant="3.5" id="L5X-uS-7aq"/>
+                                    <constraint firstAttribute="bottom" secondItem="rLf-br-XE4" secondAttribute="bottom" constant="8" id="Xgj-13-CnL"/>
+                                    <constraint firstItem="rLf-br-XE4" firstAttribute="leading" secondItem="dQu-Io-duo" secondAttribute="leading" constant="8" id="mZp-mk-kXh"/>
+                                    <constraint firstItem="DvP-oV-T28" firstAttribute="centerX" secondItem="dQu-Io-duo" secondAttribute="centerX" id="x8L-LR-GtO"/>
+                                </constraints>
+                            </view>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slh-Ha-UsV">
+                                <rect key="frame" x="0.0" y="78" width="320" height="490"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="slh-Ha-UsV" firstAttribute="leading" secondItem="Nzb-9s-v1E" secondAttribute="leading" id="GIf-mn-hAG"/>
+                            <constraint firstItem="dQu-Io-duo" firstAttribute="leading" secondItem="Nzb-9s-v1E" secondAttribute="leading" id="JAI-ky-OWQ"/>
+                            <constraint firstItem="YyL-3E-Day" firstAttribute="top" secondItem="slh-Ha-UsV" secondAttribute="bottom" id="jqV-OH-9dc"/>
+                            <constraint firstAttribute="trailing" secondItem="slh-Ha-UsV" secondAttribute="trailing" id="k0C-s9-lxw"/>
+                            <constraint firstAttribute="trailing" secondItem="dQu-Io-duo" secondAttribute="trailing" id="stW-pm-fXr"/>
+                            <constraint firstItem="dQu-Io-duo" firstAttribute="top" secondItem="Nzb-9s-v1E" secondAttribute="top" id="u4r-yC-QOF"/>
+                            <constraint firstItem="slh-Ha-UsV" firstAttribute="top" secondItem="dQu-Io-duo" secondAttribute="bottom" constant="8" id="xxB-ep-d1c"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="slh-Ha-UsV" id="dyd-Dg-k0N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z7Z-I0-Zj8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="786.97183098591552"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pD2-Q3-NEv">
+            <objects>
+                <viewController id="1Fh-2t-Eyr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uKc-TX-wHc"/>
+                        <viewControllerLayoutGuide type="bottom" id="cOD-Ac-4GV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sap-PE-pxb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bO2-Gm-Ysy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="842" y="801"/>
+        </scene>
+        <!--Murli SectionVC-->
+        <scene sceneID="K8C-ko-6bL">
+            <objects>
+                <viewController id="268-j9-Bvl" customClass="MurliSectionVC" customModule="My_Purusharth" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OdL-aE-Zha"/>
+                        <viewControllerLayoutGuide type="bottom" id="dLL-vG-Bup"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hCP-Y2-tPe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zip-dK-aGi" customClass="HeaderView" customModule="My_Purusharth" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Murli" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZuZ-8v-cCg">
+                                        <rect key="frame" x="123" y="24" width="75" height="43"/>
+                                        <fontDescription key="fontDescription" name="Gabriola" family="Gabriola" pointSize="43"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1q-0v-C1W">
+                                        <rect key="frame" x="8" y="27" width="33" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="33" id="M9i-r7-XHg"/>
+                                            <constraint firstAttribute="height" constant="33" id="z8m-40-Woe"/>
+                                        </constraints>
+                                        <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backBtnPressed:" destination="268-j9-Bvl" eventType="touchUpInside" id="WV6-rh-tai"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="ZuZ-8v-cCg" secondAttribute="bottom" constant="3" id="Ae3-yu-1Fk"/>
+                                    <constraint firstItem="D1q-0v-C1W" firstAttribute="leading" secondItem="Zip-dK-aGi" secondAttribute="leading" constant="8" id="CaD-LR-eUG"/>
+                                    <constraint firstAttribute="height" constant="70" id="jmG-3u-Bqr"/>
+                                    <constraint firstItem="ZuZ-8v-cCg" firstAttribute="centerX" secondItem="Zip-dK-aGi" secondAttribute="centerX" id="oB2-DL-e4X"/>
+                                    <constraint firstAttribute="bottom" secondItem="D1q-0v-C1W" secondAttribute="bottom" constant="10" id="xB8-CD-FE1"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="INh-Y5-VAI">
+                                <rect key="frame" x="0.0" y="78" width="320" height="490"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="hPf-jC-ovU" customClass="MurliCell" customModule="My_Purusharth" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hPf-jC-ovU" id="Dkv-xQ-5TJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today's Murli" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOn-Z1-Wnm">
+                                                    <rect key="frame" x="28" y="28.5" width="264" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="BOn-Z1-Wnm" secondAttribute="trailing" constant="20" id="0X5-DY-NvI"/>
+                                                <constraint firstItem="BOn-Z1-Wnm" firstAttribute="centerX" secondItem="Dkv-xQ-5TJ" secondAttribute="centerX" id="K9s-hy-QSB"/>
+                                                <constraint firstItem="BOn-Z1-Wnm" firstAttribute="centerY" secondItem="Dkv-xQ-5TJ" secondAttribute="centerY" id="MxC-wS-dWm"/>
+                                                <constraint firstItem="BOn-Z1-Wnm" firstAttribute="leading" secondItem="Dkv-xQ-5TJ" secondAttribute="leadingMargin" constant="20" id="oeR-1T-1N2"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellLabel" destination="BOn-Z1-Wnm" id="bs2-M3-j2j"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Zip-dK-aGi" secondAttribute="trailing" id="8Gh-AE-TYa"/>
+                            <constraint firstItem="Zip-dK-aGi" firstAttribute="leading" secondItem="hCP-Y2-tPe" secondAttribute="leading" id="C3m-SS-JCw"/>
+                            <constraint firstItem="Zip-dK-aGi" firstAttribute="top" secondItem="hCP-Y2-tPe" secondAttribute="top" id="Xxr-Tz-5fm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PSW-9b-DBR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888.75" y="96.126760563380287"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back" width="64" height="64"/>
+        <image name="settings (3)" width="64" height="64"/>
+    </resources>
 </document>
